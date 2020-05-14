@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 20,
     fontFamily: 'Ubuntu-Medium',
-    paddingRight: 2,
+    marginRight: 5,
   },
   update: {
     fontSize: 12,

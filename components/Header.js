@@ -13,10 +13,7 @@ const Header = () => {
       <View style={styles.container}>
         <HeaderLogo />
         <View style={styles.socialLinks}>
-          <Text
-            onPress={() =>
-              Linking.openURL('https://facebook.com/messages/t/hasibmolla28')
-            }>
+          <Text onPress={() => Linking.openURL('https://m.me/hasibmolla28')}>
             {facebook}
           </Text>
           <Text

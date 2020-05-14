@@ -23,9 +23,7 @@ const Developer = () => {
           <AppText style={styles.title}>About Developer</AppText>
           <TouchableNativeFeedback
             background={TouchableNativeFeedback.Ripple('#ddd')}
-            onPress={() =>
-              Linking.openURL('https://facebook.com/hasibmolla28/')
-            }>
+            onPress={() => Linking.openURL('https://fb.me/hasibmolla28/')}>
             <Row style={styles.card}>
               <Image style={styles.heroImg} source={require(hero)} />
               <View style={styles.heroInfo}>
@@ -49,7 +47,7 @@ const Developer = () => {
                 color="#0B86EE"
                 size={30}
                 onPress={() =>
-                  Linking.openURL('https://facebook.com/hasibmolla28/')
+                  Linking.openURL('https://facebook.com/hasibmolla28')
                 }
               />
               <Icon
@@ -64,11 +62,7 @@ const Developer = () => {
                 name="facebook-messenger"
                 color="#1094F4"
                 size={33}
-                onPress={() =>
-                  Linking.openURL(
-                    'https://facebook.com/messages/t/hasibmolla28/',
-                  )
-                }
+                onPress={() => Linking.openURL('https://m.me/hasibmolla28/')}
               />
               <AntIcon
                 style={styles.icon}
