@@ -117,14 +117,12 @@ const styles = StyleSheet.create({
     height: 80,
     borderRadius: 100,
     transform: [{rotate: '-9deg'}],
+    marginRight: 10,
   },
   name: {
     fontFamily: 'BalooDa-SemiBold',
     fontSize: 25,
     color: '#003',
-  },
-  heroInfo: {
-    marginLeft: 15,
   },
   position: {
     fontSize: 15,
