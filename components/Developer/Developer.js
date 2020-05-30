@@ -29,7 +29,7 @@ const Developer = () => {
               <View style={styles.heroInfo}>
                 <AppText style={styles.name}>Hasib Molla</AppText>
                 <AppText style={styles.position}>
-                  Android & Web App Developer
+                  Android & Web Apps Developer
                 </AppText>
                 <Row style={styles.locContainer}>
                   <Icon name="location-pin" color="#aaa" size={25} />

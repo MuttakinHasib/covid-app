@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_1 = 'https://covid19.mathdro.id/api';
+// const API_1 = 'https://covid19.mathdro.id/api';
 const API_2 = 'https://disease.sh/v2';
 export const globalData = async () => {
   const {

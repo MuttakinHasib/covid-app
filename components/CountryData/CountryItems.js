@@ -23,7 +23,7 @@ const CountryItems = ({
   const totalDataColor = ['#003cbf', '#1DD1A1', '#f36', '#003'];
   const newUpdatesColor = ['#FFCA28', '#f36'];
   const totalDataTitle = ['Confirmed', 'Recovered', 'Deaths', 'Critical'];
-  const newUpdatesTitle = ['Today Cases', 'New Deaths'];
+  const newUpdatesTitle = ['New Cases', 'New Deaths'];
 
   const countryInformation = (
     <Row style={styles.countryInfo}>

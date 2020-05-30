@@ -7,7 +7,7 @@ import moment from 'moment';
 import Cards from '../Cards/Cards';
 import Chart from '../Charts/Chart';
 import Percentage from './Percentage';
-import LastInfo from '../Charts/LastInfo';
+import LastInfo from '../Cards/LastInfo';
 
 const Reports = ({data}) => {
   const lastUpdate = data?.updated && (

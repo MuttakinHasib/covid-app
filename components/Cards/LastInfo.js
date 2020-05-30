@@ -14,7 +14,7 @@ const LastInfo = ({data}) => {
           <View>
             <Row>
               <Block style={styles.block} color="#FFCA28" />
-              <AppText style={styles.title}>Today Cases</AppText>
+              <AppText style={styles.title}>New Cases</AppText>
             </Row>
             <AppText style={styles.num}>
               {data?.todayCases >= 0 ? (
@@ -29,7 +29,7 @@ const LastInfo = ({data}) => {
           <View>
             <Row>
               <Block style={styles.block} color="#f33" />
-              <AppText style={styles.title}>Today Deaths</AppText>
+              <AppText style={styles.title}>New Deaths</AppText>
             </Row>
             <AppText style={styles.num}>
               {data?.todayDeaths >= 0 ? (
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Ubuntu-Medium',
   },
   container: {
-    marginTop: 20,
+    // marginTop: 20,
     justifyContent: 'space-between',
     alignItems: 'center',
     flexGrow: 1,
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
     // borderWidth: 3,
     borderColor: '#eee',
     borderRadius: 5,
-    padding: 20,
+    paddingVertical: 20,
   },
   card: {
     marginVertical: 10,
