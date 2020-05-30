@@ -57,6 +57,7 @@ const styles = StyleSheet.create({
   },
   countryInfo: {
     width: '45%',
+    paddingRight: 10,
   },
   title: {
     fontSize: 20,

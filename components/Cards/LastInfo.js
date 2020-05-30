@@ -51,6 +51,10 @@ const styles = StyleSheet.create({
   topTitle: {
     fontSize: 20,
     fontFamily: 'Ubuntu-Medium',
+    paddingBottom: 10,
+    borderBottomColor: '#eee',
+    borderRadius: 15,
+    borderBottomWidth: 2,
   },
   container: {
     // marginTop: 20,
