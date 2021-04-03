@@ -25,7 +25,7 @@
     "react-native-svg-charts": "^5.4.0",
     "react-native-svg-transformer": "^0.14.3",
     "react-native-vector-icons": "^6.6.0",
-    "react-native-webview": "^9.4.0",
+    "react-native-webview": "^11.0.0",
     "react-number-format": "^4.4.1"
   },
   "devDependencies": {
